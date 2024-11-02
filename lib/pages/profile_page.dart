@@ -73,13 +73,13 @@ class ProfilePage extends StatelessWidget {
                                 ),
                       ),
                       const Text(
-                        'Informatics',
+                        '23EO60002',
                         style: TextStyle(
                           color: Colors.white,
                         ),
                       ),
                       const Text(
-                        'Mobile Developer',
+                        'Informatika',
                         style: TextStyle(
                           color: Colors.white,
                         ),

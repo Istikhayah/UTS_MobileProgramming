@@ -20,7 +20,7 @@ class NasionalNewsProvider with ChangeNotifier {
     notifyListeners();
 
     final url =
-        Uri.parse('https://api-berita-indonesia.vercel.app/cnn/ekonomi/');
+        Uri.parse('https://api-berita-indonesia.vercel.app/cnn/nasional/');
     try {
       final response = await http.get(url);
       if (response.statusCode == 200) {
